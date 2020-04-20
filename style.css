@@ -47,3 +47,8 @@ div#container{
 	background-color: yellow;
 	color: red;
 }
+
+.err {
+	border: 1px red solid;
+	background-color: yellow !important;
+}
