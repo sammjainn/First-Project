@@ -3,25 +3,28 @@
 <head>
 	<title>Login</title>
 	<link rel="stylesheet" type="text/css" href="./style.css">
+	<script type="text/javascript" defer src="./script.js"></script>
 </head>
 <body id="body">
 
 	<div id="container">
+		<div id='error'></div>
 		<div id="image">
 			<img src="./user.jpg">
 		</div>
 
 		<div id="login">
 			<h2> LOGIN </h2>
-			<form>
+			<form action="./page 2/portfolio.html">
 
-				<input id="email" type="email" name="email" placeholder="Email"><br>
+				<input id="name" type="text" name="name" placeholder="Username"><br>
 				<input id="pass" type="password" name="password" placeholder="Password"><br>
-				<a href="./page 2/portfolio.html" target="_blank"><button id="button" type="button">LOGIN</button></a><br>
+				<input id="pass-2" type="password" name="password-2" placeholder="Confirm password"><br>
+				<button id="button" type="submit">LOGIN</button><br>
 
-				<p>Forgot <b>Username / Password</b>?</p>
+				<p>Forgot <b><a>Username / Password</a></b>?</p>
 				<br>
-				<p><u>Create your Account -></u></p>
+				<p><u><a>Create your Account -></a></u></p>
 			</form>
 		</div>
 	</div>
